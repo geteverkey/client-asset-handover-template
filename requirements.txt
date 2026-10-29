@@ -1,0 +1,3 @@
+# Only needed to rebuild the .xlsx with build.py. The template files themselves
+# need nothing installed.
+openpyxl>=3.1

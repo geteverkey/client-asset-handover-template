@@ -1,0 +1,7 @@
+Client,Asset,Provider,Owner email,Ownership,Login method,Renews,Cost,Where the password lives,Ready?,Notes
+Northline Cafe,Domain,Namecheap,admin@northlinecafe.com,client owned,email + password,2027-03-12,18 USD,Client 1Password vault,"=IF(AND(E2=""client owned"",D2<>"""",F2<>""""),""yes"",""no"")",Transferred 2026-02
+Northline Cafe,Hosting,Vercel,admin@northlinecafe.com,client owned,Google sign-in,2027-04-18,240 USD,Client 1Password vault,"=IF(AND(E3=""client owned"",D3<>"""",F3<>""""),""yes"",""no"")",
+Northline Cafe,DNS,Cloudflare,me@myagency.com,needs transfer,email + password,,0,My 1Password vault,"=IF(AND(E4=""client owned"",D4<>"""",F4<>""""),""yes"",""no"")",Still on my account. Move at next renewal.
+Northline Cafe,Email,Google Workspace,admin@northlinecafe.com,client owned,,2027-01-09,432 USD,Client 1Password vault,"=IF(AND(E5=""client owned"",D5<>"""",F5<>""""),""yes"",""no"")",Owner is right but I never wrote down how they sign in.
+Acme Dental,Domain,GoDaddy,me@myagency.com,needs transfer,email + password,2026-11-30,22 USD,My 1Password vault,"=IF(AND(E6=""client owned"",D6<>"""",F6<>""""),""yes"",""no"")",Registered on my card in 2019. They have no registrar account yet.
+Acme Dental,Analytics,Google Analytics,,freelancer managed,Google sign-in,,0,My Google account,"=IF(AND(E7=""client owned"",D7<>"""",F7<>""""),""yes"",""no"")",Attached to my personal Google login. Leaves with me.
